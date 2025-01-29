@@ -1,5 +1,5 @@
 package com.example.lab4_tangry;
-
+// Finished Circle Class
 public class Circle extends Shape {
     private double radius;
 
