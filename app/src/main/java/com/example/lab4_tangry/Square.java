@@ -18,4 +18,9 @@ public class Square extends Shape {
     public double getPerimeter() {
         return length * 4;
     }
+
+    @Override
+    public void draw() {
+        System.out.println("Drawing Square");
+    }
 }
