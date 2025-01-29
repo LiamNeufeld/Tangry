@@ -8,8 +8,12 @@ public abstract class Shape {
         this.x = x;
         this.y = y;
     }
+    public abstract double getArea();
+    public abstract double getPerimeter();
 
-    // You can add abstract or concrete methods here, for example:
-    // public abstract void draw();
+    public void draw() {
+        System.out.println("Drawing Shape");
+    }
 }
+
 
