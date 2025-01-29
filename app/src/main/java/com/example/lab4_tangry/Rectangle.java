@@ -4,6 +4,8 @@ public class Rectangle extends Shape {
     private double width;
     private double height;
 
+    protected String color = "yellow";
+
     public Rectangle() {
         this(0, 0, 1, 1);
     }
