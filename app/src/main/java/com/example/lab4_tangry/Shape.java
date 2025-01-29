@@ -11,6 +11,13 @@ public abstract class Shape {
     public abstract double getArea();
     public abstract double getPerimeter();
 
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
     public void draw() {
         System.out.println("Drawing Shape");
     }
