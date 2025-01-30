@@ -2,9 +2,10 @@ package com.example.lab4_tangry;
 
 public abstract class Shape {
     protected int x;
-    private String color = "yellow";
     protected int y;
-    protected String color = "turquoise";
+    protected String color = "yellowish";
+
+
 
     public Shape(int x, int y) {
         this.x = x;
