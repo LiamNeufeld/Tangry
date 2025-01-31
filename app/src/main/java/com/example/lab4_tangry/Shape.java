@@ -3,7 +3,7 @@ package com.example.lab4_tangry;
 public abstract class Shape {
     protected int x;
     protected int y;
-    protected String color = "blue";
+    protected String color = "turquoise_m";
 
 
     public Shape(int x, int y) {
